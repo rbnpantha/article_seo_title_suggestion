@@ -1,0 +1,39 @@
+# 📰 News Title and SEO Tag Generator
+
+This Python tool uses OpenAI's GPT-4o to:
+- ✍️ Generate 5 catchy and informative title suggestions
+- 🔍 Generate 10 SEO-friendly tags (keywords)
+
+---
+
+## ✅ Requirements
+
+- Python 3.7+
+- OpenAI API Key
+- Internet connection
+
+---
+
+## 🚀 Steps to Run
+
+1. **Download or clone this project**
+   - Open PyCharm and create a new project from the folder, or extract the ZIP and open it
+
+2. **Create a `.env` file in the root directory**
+   - Add your API key like this:
+     ```
+     OPENAI_API_KEY=your_openai_api_key_here
+     ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+4. ** Run the script
+    ```bash
+    python main.py
+    ```
+
+5. **View the output
+    Results will be printed in the terminal
+    Also saved to output.txt
